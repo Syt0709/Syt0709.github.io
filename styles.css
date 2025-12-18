@@ -274,6 +274,7 @@ main h2:first-of-type {
 
 .experience-item,
 .project-item,
+.papers-item,
 .activity-item {
     display: flex;
     justify-content: space-between;
@@ -289,6 +290,7 @@ main h2:first-of-type {
 
 .experience-item .date,
 .project-item .date,
+.papers-item .date,
 .activity-item .date {
     font-size: 0.75rem;
     margin-top: 5px;
@@ -467,6 +469,7 @@ footer p {
     .education-item,
     .experience-item,
     .project-item,
+    .papers-item,
     .activity-item {
         flex-direction: column;
         gap: 10px;
